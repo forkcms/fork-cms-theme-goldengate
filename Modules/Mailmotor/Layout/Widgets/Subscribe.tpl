@@ -5,7 +5,7 @@
 		</header>
 		<div class="bd">
 			<p>{$msgNewsletterSubscribe}</p>
-			<form action="{$var|geturlforblock:'mailmotor':'subscribe'}" method="post">
+			<form action="{$var|geturlforblock:'Mailmotor':'Subscribe'}" method="post">
 				<input type="hidden" name="form" value="subscribe" />
 				<p>
 					<input type="text" value="" id="email" name="email" class="inputText" />

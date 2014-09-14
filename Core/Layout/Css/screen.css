@@ -21,7 +21,7 @@ body {
 	font: 300 12px/1.5 Arial, sans-serif;
 	color: #0e3748;
 	background: #fff;
-	behavior: url(js/hover.htc);
+	behavior: url(../../Js/hover.htc);
 }
 
 /*
