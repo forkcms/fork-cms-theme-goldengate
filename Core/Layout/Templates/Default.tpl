@@ -1,4 +1,4 @@
-{include:core/layout/templates/head.tpl}
+{include:Core/Layout/Templates/Head.tpl}
 
 <body class="{$LANGUAGE}">
 	<div id="topWrapper">
@@ -24,7 +24,7 @@
 				{* Language *}
 				<nav id="headerLanguage">
 					<h4>{$lblLanguage|ucfirst}</h4>
-					{include:core/layout/templates/languages.tpl}
+					{include:Core/Layout/Templates/Languages.tpl}
 				</nav>
 
 				{* Top position *}
@@ -35,7 +35,7 @@
 				{* Breadcrumb *}
 				<aside id="breadcrumb">
 					<h4>{$lblBreadcrumb|ucfirst}</h4>
-					{include:core/layout/templates/breadcrumb.tpl}
+					{include:Core/Layout/Templates/Breadcrumb.tpl}
 				</aside>
 
 			</div>
@@ -178,7 +178,7 @@
 	{/iteration:jsFiles}
 
 	{* Theme specific Javascript *}
-	<script src="{$THEME_URL}/core/js/goldengate.js"></script>
+	<script src="{$THEME_URL}/Core/Js/goldengate.js"></script>
 
 </body>
 </html>

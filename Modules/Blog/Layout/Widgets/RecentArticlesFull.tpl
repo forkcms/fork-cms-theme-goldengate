@@ -37,7 +37,7 @@
 			</div>
 			<footer class="ft">
 				<p>
-					<a href="{$var|geturlforblock:'blog'}">{$lblBlogArchive|ucfirst}</a>
+					<a href="{$var|geturlforblock:'Blog'}">{$lblBlogArchive|ucfirst}</a>
 				</p>
 			</footer>
 		</div>
